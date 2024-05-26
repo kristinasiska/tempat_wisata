@@ -1,0 +1,52 @@
+name: tempat_wisata
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/alaspurwo1.jpeg
+    - assets/images/alaspurwo2.jpeg
+    - assets/images/alaspurwo3.jpeg
+    - assets/images/alaspurwo4.jpeg
+    - assets/images/gunungijen1.jpeg
+    - assets/images/gunungijen2.jpeg
+    - assets/images/gunungijen3.jpeg
+    - assets/images/gunungijen4.jpeg
+    - assets/images/pulaumerah1.jpeg
+    - assets/images/pulaumerah2.jpeg
+    - assets/images/pulaumerah3.jpeg
+    - assets/images/pulaumerah4.jpg
+    - assets/images/telukijo1.jpeg
+    - assets/images/telukijo2.jpeg
+    - assets/images/telukijo3.jpeg
+    - assets/images/telukijo4.jpeg
+    - assets/images/wediireng1.jpeg
+    - assets/images/wediireng2.jpeg
+    - assets/images/wediireng3.jpg
+    - assets/images/wediireng4.jpeg
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
